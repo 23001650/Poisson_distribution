@@ -29,11 +29,10 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
-~~~
 #Developed By : SUNIL KUMAR T
 
 #Ref no : 23001650
-
+```python
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L)
@@ -56,11 +55,11 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var)
 print("The Standard deviation of arrival from feeder is %.3F"%SD)
- ~~~
+```
 # Output : 
 
-![image](https://github.com/23001650/Poisson_distribution/assets/139426504/ee4ae496-6fd6-4442-a668-367f8ffcf5e9)
 
+![Alt text](output2.jpeg)
 
 # Results
 
